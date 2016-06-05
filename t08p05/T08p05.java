@@ -66,9 +66,9 @@ public class T08p05 {
                     System.out.println(m.tipoAnimal());
                     System.out.println(m.comunicarse());
                     if (m instanceof Perro)
-                        System.out.println("El peso del perro es: "+((Perro)m).getPeso());
+                        System.out.println("El peso del canido es: "+((Perro)m).getPeso());
                     else
-                        System.out.println("El color del gato es: "+((Gato)m).getColor());
+                        System.out.println("El color del minino es: "+((Gato)m).getColor());
                 } else {
                     System.out.println("No tiene mascota!");
                 }
